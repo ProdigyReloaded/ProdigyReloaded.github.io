@@ -1,8 +1,11 @@
 ---
-permalink: /about/
+permalink: /
 title: "About"
+header:
+  image: assets/images/banner.jpg
 ---
+The Prodigy "Interactive Personal Service" launched in 1988 as a joint venture between IBM and Sears, was rebranded as "Prodigy Classic" as the company transitioned to more standards-based Internet service, and was retired in 1999.
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Prodigy Reloaded is a continuation of efforts of the Prodigy Presevation Project.  The Preservation Project seeks to preserve Prodigy Classic content by collecting artifacts, especially the cache files used by the Prodigy client which are then mined for the content within.  Prodigy Reloaded makes use of this discovered content to present an API compatible Prodigy Classic server to which the original client can connect.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+To history of the Prodigy company is well described on the [Wikipedia page](https://en.wikipedia.org/wiki/Prodigy_(online_service)).  To learn more about the project, news updates, and how to get involved, explore the links at the top of this page.
