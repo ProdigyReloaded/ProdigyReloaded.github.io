@@ -1,5 +1,5 @@
 ---
-permalink: /get-involved
+permalink: /get-involved/
 author_profile: false
 title: "Get Involved"
 ---

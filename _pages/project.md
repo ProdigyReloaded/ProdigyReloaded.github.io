@@ -1,5 +1,5 @@
 ---
-permalink: /project
+permalink: /project/
 author_profile: false
 title: "About the Project"
 toc: true
