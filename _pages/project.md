@@ -16,10 +16,10 @@ Phil Heller retrieved the Prodigy Patent and the associated Patent application, 
 
 Some months later the project resumed and some further progress was made by simply fuzzing the client with responses of various sizes, ultimately narrowing on a number of login responses that allowed the client to continue.  A greater breakthrough was made when Phil was furnished a number of documents, including the Prodigy "Application Developers Reference Manual" (ADRM).  While not a document with deep technical specifications, it included an instructive example of a TBOL debugging session complete with source, and a disassembly of the corresponding binary.  It was this that convinced Phil to redouble efforts to extract virtual machine's instruction set from the patent source and build a disassembler.
 
-A second [blog post](https://www.vintagecomputing.com/index.php/archives/3064/reverse-engineering-prodigy-part-2) was published, detailing the construction of such a disassembler, and the use of it to further determine the client reqeust and response format for various services.
+A second [blog post](https://www.vintagecomputing.com/index.php/archives/3064/reverse-engineering-prodigy-part-2) was published, detailing the construction of such a disassembler, and the use of it to further determine the client request and response format for various services.
 
 # Rapid Progress
-With a disassembler constructed, Phil continued to build a mock server operating with a similar configuration grammar that Prodigy's own mock server utilized, as described in the ADRM.  More TBOL binaries were disassmbled, more functionality understood, and yet more questions raised.
+With a disassembler constructed, Phil continued to build a mock server operating with a similar configuration grammar that Prodigy's own mock server utilized, as described in the ADRM.  More TBOL binaries were disassembled, more functionality understood, and yet more questions raised.
 
 Given that it seemed likely some part of the service could be revived, it was decided to exhibit the project at whatever state it might be in at the Vintage Computer Festival West in August 2022.  As a result, the mock server was entirely rewritten with a real database backend, and then began work to replicate content.
 
@@ -50,7 +50,7 @@ Known issues:
 - "Directory" and "Find" do not work, for lack of the `CCDAM` driver object.
 - Quote Track does not work, but there still may be hope that the objects necessary to make this work are available.
 - Stock Quotes will fulfill any valid equities quote (via YahooFiannce), but all symbols will resolve to the name "International Business Machines".
-- None of the TCS (Trintex Communications Subsystem) error recovery mechanisms are implemented as of yet, as the intial approach was for the client to connect over reliable TCP sessions.  As such, modem-based connections are susceptible to line noise which often causes the client to timeout or disconnect.o
+- None of the TCS (Trintex Communications Subsystem) error recovery mechanisms are implemented as of yet, as the intial approach was for the client to connect over reliable TCP sessions.  As such, modem-based connections are susceptible to line noise which often causes the client to timeout or disconnect.
 
 # Plans
 Subsequent to the VCF West show, the author intends to improve the test coverage in the server code, improve documentation, open access to a public server, and publish the repositories for all the tools and the Prodigy server.
