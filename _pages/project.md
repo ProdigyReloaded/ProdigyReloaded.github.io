@@ -9,7 +9,7 @@ Prodigy made use of a hierarchical caching system whereby content would first be
 
 In 2014, Jim Carpenter, a Software developer and Prodigy enthusiast, discovered that the `STAGE.DAT` file contained a FAT-like filesystem.  Carpenter developed software to extract the objects and coerce the client into displaying the images contained within.  Journalist Benj Edwards writes about Jim's efforts in his article [Where Online Services Go When They Die](https://www.theatlantic.com/technology/archive/2014/07/where-online-services-go-when-they-die/374099/), and Benj published the imagery that Jim  was able to extract from several contributed `STAGE.DAT` files [here](https://www.flickr.com/photos/149332336@N06/albums).
 
-In late 2019, Phil Heller read the article, and given the success in [reviving Quantum Link](https://orrtech.us/qlink/) some years ago, developed an interest in doing the same for Prodigy.
+In late 2019, Phil Heller read the article, and given the success others had in [reviving Quantum Link](https://orrtech.us/qlink/) some years ago, developed an interest in doing the same for Prodigy.
 
 # Cautious Optimism
 Phil Heller retrieved the Prodigy Patent and the associated Patent application, which included several thousand pages of the source code for the Reception System.  Between the source code and the patent, Phil implemented enough code to convince the client to *try* to connect as detailed in this [blog post](https://www.vintagecomputing.com/index.php/archives/2921/reverse-engineering-prodigy-part-1), but for a while, this was a sticking point, and the project was put on hold.
